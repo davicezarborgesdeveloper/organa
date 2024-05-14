@@ -72,6 +72,7 @@ const Formulario = (props) => {
                 />
                 <Campo
                     mandatory
+                    type='color'
                     label="Cor"
                     placeholder="Digite a cor do time"
                     value={corTime}
